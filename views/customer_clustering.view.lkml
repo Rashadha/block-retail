@@ -80,7 +80,7 @@ view: customer_clustering_prediction {
     type: string
     sql: ${TABLE}.customer_segment ;;
     link: {
-      url: "/dashboards/retail_block_model_v2::customer_segment_deepdive?Customer%20Segment={{value | encode_uri}}&Date%20Range={{ _filters['transactions.date_comparison_filter'] | url_encode }}"
+      url: "/dashboards/retail_block_model_v4::customer_segment_deepdive?Customer%20Segment={{value | encode_uri}}&Date%20Range={{ _filters['transactions.date_comparison_filter'] | url_encode }}"
       label: "Drill into {{rendered_value}}"
     }
   }

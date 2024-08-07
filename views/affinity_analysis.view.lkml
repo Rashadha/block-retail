@@ -218,7 +218,7 @@ view: order_purchase_affinity {
     sql: ${TABLE}.product_a ;;
     link: {
       label: "Focus on {{rendered_value}}"
-      url: "/dashboards/retail_block_model_v2::item_affinity_analysis?Focus%20Product={{ value | encode_uri }}&Product%20Level={{ _filters['order_items_base.product_level'] | url_encode }}&Analysis%20Timeframe={{ _filters['order_purchase_affinity.affinity_timeframe'] | url_encode }}&Store%20Name={{ _filters['order_purchase_affinity.store_name'] | url_encode }}&Focus%20Category={{ _filters['order_purchase_affinity.product_a_category'] | url_encode }}&Minimum%20Purchase%20Frequency={{ _filters['order_purchase_affinity.product_a_order_frequency'] | url_encode }}"
+      url: "/dashboards/retail_block_model_v4::item_affinity_analysis?Focus%20Product={{ value | encode_uri }}&Product%20Level={{ _filters['order_items_base.product_level'] | url_encode }}&Analysis%20Timeframe={{ _filters['order_purchase_affinity.affinity_timeframe'] | url_encode }}&Store%20Name={{ _filters['order_purchase_affinity.store_name'] | url_encode }}&Focus%20Category={{ _filters['order_purchase_affinity.product_a_category'] | url_encode }}&Minimum%20Purchase%20Frequency={{ _filters['order_purchase_affinity.product_a_order_frequency'] | url_encode }}"
     }
   }
 

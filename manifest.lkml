@@ -6,7 +6,7 @@ project_name: "retail-block"
 ################ Constants ################
 
 constant: CONNECTION_NAME {
-  value: "retail-block-connection"
+  value: "market_basket_anaysis"
   export: override_optional
 }
 

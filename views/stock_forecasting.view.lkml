@@ -43,7 +43,7 @@ view: stock_forecasting_explore_base {
     link: {
       label: "Drive attachments for {{rendered_value}}"
       icon_url: "https://i.imgur.com/W4tVGrj.png"
-      url: "/dashboards/retail_block_model_v2::item_affinity_analysis?Focus%20Product={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
+      url: "/dashboards/retail_block_model_v4::item_affinity_analysis?Focus%20Product={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
     }
   }
   dimension: product_name_for_join {

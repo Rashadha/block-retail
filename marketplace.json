@@ -18,7 +18,7 @@
   },
   "models": [
     {
-      "name": "retail_block_model_v2",
+      "name": "retail_block_model_v4",
       "connection_constant": "CONNECTION_NAME"
     }
   ]

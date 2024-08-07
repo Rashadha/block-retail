@@ -27,7 +27,7 @@ view: stores {
     type: string
     sql: ${TABLE}.NAME ;;
     link: {
-      url: "/dashboards/retail_block_model_v2::store_deepdive?Date={{ _filters['transactions.date_comparison_filter'] | url_encode }}&Store={{value | encode_uri}}"
+      url: "/dashboards/retail_block_model_v4::store_deepdive?Date={{ _filters['transactions.date_comparison_filter'] | url_encode }}&Store={{value | encode_uri}}"
       label: "Drill down into {{rendered_value}}"
     }
   }

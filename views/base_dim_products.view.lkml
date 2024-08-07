@@ -23,7 +23,7 @@ view: products {
     link: {
       label: "{{value}} Item Dynamics"
       icon_url: "https://i.imgur.com/W4tVGrj.png"
-      url: "/dashboards/retail_block_model_v2::item_affinity_analysis?Focus%20Category={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
+      url: "/dashboards/retail_block_model_v4::item_affinity_analysis?Focus%20Category={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
     }
   }
 
@@ -34,7 +34,7 @@ view: products {
     link: {
       label: "Drive attachments for {{rendered_value}}"
       icon_url: "https://i.imgur.com/W4tVGrj.png"
-      url: "/dashboards/retail_block_model_v2::item_affinity_analysis?Focus%20Product={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
+      url: "/dashboards/retail_block_model_v4::item_affinity_analysis?Focus%20Product={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
     }
   }
 
