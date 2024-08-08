@@ -11,7 +11,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: SCHEMA_NAME {
-  value: "lankatiles-cortex.affinity_analysis"
+  value: "looker-demo.retail"
   export: override_optional
 }
 
