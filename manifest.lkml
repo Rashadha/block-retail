@@ -6,12 +6,12 @@ project_name: "final-retail-block-v2"
 ################ Constants ################
 
 constant: CONNECTION_NAME {
-  value: "market_basket_anaysis"
+  value: "retail-block-connection"
   export: override_optional
 }
 
 constant: SCHEMA_NAME {
-  value: "looker-demo.retail"
+  value: "lankatiles-cortex.market_basket_analysis"
   export: override_optional
 }
 
