@@ -1,4 +1,4 @@
-project_name: "data-science-projects"
+project_name: "final-retail-block-v2"
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
