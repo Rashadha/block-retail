@@ -51,11 +51,11 @@ constant: MAIN_CURRENCY_SYMBOL {
 }
 
 constant: IMAGE_SEARCH_URL {
-  value: "https://us-central1-looker-private-demo.cloudfunctions.net/imageSearch?q="
+  value: ""
   export: override_optional
 }
 
 constant: GOOGLE_MAPS_API_KEY {
-  value: "xxxxxxxx"
+  value: ""
   export: override_optional
 }
